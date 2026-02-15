@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 CXX = g++
 
 CXXFLAGS = -Wall
 
-all: run_serial cpu_test
+all: run_serial cpu_test run_concurrent
 	
 run_serial:
 	$(CXX) $(CXXFLAGS) run_serial.cpp -o run_serial
